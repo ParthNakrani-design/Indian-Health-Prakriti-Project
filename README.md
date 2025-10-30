@@ -6,7 +6,7 @@ In This Project You Will Of Your Health And Based On Your Prakriti, Suggestion A
 
 ---
 
-## 📖 Description
+##  Description
 
 Indian Health is a web-based wellness application built using HTML, CSS, and JavaScript.  
 It helps users understand their Ayurvedic body constitution (Prakriti) — identifying the balance between Vata, Pitta, and Kapha doshas through an interactive questionnaire.
