@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Indian Health</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <h1 class="brand">Indian Health</h1>
+      <div id="userArea" class="user-area"></div>
+    </div>
+  </header>
+
+  <main class="container auth-page">
+    <form id="loginForm">
+      <h2>Login</h2>
+      <label>Username:</label>
+      <input type="text" id="loginUsername" required>
+
+      <label>Password:</label>
+      <input type="password" id="loginPassword" required>
+
+      <button type="submit">Login</button>
+      <p id="loginMessage" class="msg"></p>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

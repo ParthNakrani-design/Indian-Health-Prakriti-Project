@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Progress - Indian Health</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <h1 class="brand">Indian Health</h1>
+      <div id="userArea" class="user-area"></div>
+    </div>
+
+    <nav class="site-nav container">
+      <a href="index.html">Home</a>
+      <a href="prakriti.html">Prakriti Analysis</a>
+      <a href="diet.html">Diet Chart</a>
+      <a href="schedule.html">Daily Schedule</a>
+      <a href="progress.html">Progress</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Track Your Daily Progress</h2>
+    <form id="progressForm">
+      <label>Date:</label>
+      <input type="date" id="date" required>
+
+      <label>Energy Level:</label>
+      <input type="text" id="energy" required>
+
+      <label>Mood:</label>
+      <input type="text" id="mood" required>
+
+      <label>Notes:</label>
+      <textarea id="notes"></textarea>
+
+      <button type="submit">Save Progress</button>
+    </form>
+
+    <h3>Your Progress Entries</h3>
+    <table id="progressTable">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Energy</th>
+          <th>Mood</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

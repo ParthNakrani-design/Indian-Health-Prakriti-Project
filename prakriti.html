@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prakriti Analysis - Indian Health</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <h1 class="brand">Indian Health</h1>
+      <div id="userArea" class="user-area"></div>
+    </div>
+
+    <nav class="site-nav container">
+      <a href="index.html">Home</a>
+      <a href="prakriti.html">Prakriti Analysis</a>
+      <a href="diet.html">Diet Chart</a>
+      <a href="schedule.html">Daily Schedule</a>
+      <a href="progress.html">Progress</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Prakriti Analysis</h2>
+    <form id="prakritiForm">
+      <label>1. Your body type is usually:</label>
+        <select name="q1" required>
+            <option value="">Select</option>
+            <option value="vata">Thin</option>
+            <option value="pitta">Muscular</option>
+            <option value="kapha">Heavier</option>
+        </select>
+
+        <label>2. Your skin Type is:</label>
+        <select name="q2" required>
+            <option value="">Select</option>
+            <option value="vata">Dry</option>
+            <option value="pitta">Oily</option>
+            <option value="kapha">Balanced</option>
+        </select>
+
+        <label>3. Your Hair Type is:</label>
+        <select name="q3" required>
+            <option value="">Select</option>
+            <option value="vata">Dry, Thin</option>
+            <option value="pitta">Oily, Thinning</option>
+            <option value="kapha">Thick, Oily</option>
+        </select>
+
+        <label>4. Your Mindset is:</label>
+        <select name="q4" required>
+            <option value="">Select</option>
+            <option value="vata">Restless</option>
+            <option value="pitta">Intense</option>
+            <option value="kapha">Calm</option>
+        </select>
+
+        <label>5. Your Memory is:</label>
+        <select name="q5" required>
+            <option value="">Select</option>
+            <option value="vata">Forgetful</option>
+            <option value="pitta">Sharp</option>
+            <option value="kapha">Slow but long-term</option>
+        </select>
+
+        <label>6. Your Emotion is:</label>
+        <select name="q6" required>
+            <option value="">Select</option>
+            <option value="vata">Anxious</option>
+            <option value="pitta">Angry</option>
+            <option value="kapha">Content</option>
+        </select>
+
+        <label>7. Your Diet is:</label>
+        <select name="q7" required>
+            <option value="">Select</option>
+            <option value="vata">Warm, dry food</option>
+            <option value="pitta">Cold, spicy</option>
+            <option value="kapha">Light, sweet</option>
+        </select>
+
+        <label>8. Your Sleep is:</label>
+        <select name="q8" required>
+            <option value="">Select</option>
+            <option value="vata">Light</option>
+            <option value="pitta">Moderate</option>
+            <option value="kapha">Deep</option>
+        </select>
+
+        <label>9. Your Energy is:</label>
+        <select name="q9" required>
+            <option value="">Select</option>
+            <option value="vata">Variable</option>
+            <option value="pitta">High, Bursts</option>
+            <option value="kapha">Steady</option>
+        </select>
+
+        <label>10. Your Weather Preference is:</label>
+        <select name="q10" required>
+            <option value="">Select</option>
+            <option value="vata">Warm</option>
+            <option value="pitta">Cool</option>
+            <option value="kapha">Warm and Dry</option>
+        </select>
+
+        <label>11. Your Stress Response is:</label>
+        <select name="q11" required>
+            <option value="">Select</option>
+            <option value="vata">Anxious</option>
+            <option value="pitta">Irritable</option>
+            <option value="kapha">Calm</option>
+        </select>
+
+    
+      <button type="submit">Get My Prakriti</button>
+    </form>
+
+    
+    <div id="result"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
